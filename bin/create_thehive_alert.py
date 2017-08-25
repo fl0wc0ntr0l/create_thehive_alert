@@ -49,7 +49,7 @@ def create_alert(config, row):
 		date = date,
 		source = config.get('source', "splunk"),
 		caseTemplate = config.get('caseTemplate', "default"),
-		sourceRef = sourceRef # I like to use eval id=md5(_raw) 
+		sourceRef = sourceRef
 	))
 	# actually send the request to create the alert; fail gracefully
 	try:
