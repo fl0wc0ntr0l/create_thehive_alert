@@ -1,3 +1,9 @@
+# NO LONGER SUPPORTED
+This project is no longer supported. I do not use theHive as my primary incident response platform anymore. This code is provided for the community that does. I cannot make any guarantees as to whether this will work for your version of Splunk or theHive. What I can tell you is that this was working on theHive 2.13.2 and Splunk 6.5.1 *in my environment* and that is all I cared about. Please do not raise issues or ask for a wiki. You will not get them from me. 
+
+This app can be found in Splunkbase here: https://splunkbase.splunk.com/app/3642/
+
+
 # Create theHive Alert
 A package designed to enable creating alerts in theHive, a popular open-source incident response platform, as an Alert Action from Splunk. Simply drop in the package and configure your theHive alerts on a per-alert basis in Splunk.
 
